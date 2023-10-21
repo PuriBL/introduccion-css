@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: red;
+}
+    .destacado {
+        border: 3px solid black;
+        background-color: aqua;
+    }
+
+    #parrafo-grande {
+        font-size: 2 rem;
+        background-color:green;
+
+    }
