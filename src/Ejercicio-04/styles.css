@@ -1,0 +1,22 @@
+.container {
+    background-color:saddlebrown;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-container { 
+    background-color: aquamarine;
+    width: fit-content;
+
+}
+    
+.list-container li{
+    width: 10rem;
+    background-color:violet;
+    color: blue;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    list-style: none;
+
+}
