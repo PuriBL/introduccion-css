@@ -4,16 +4,34 @@
     box-sizing: border-box;
 }
 
-p {
-    background-color: red;
+header{
+    background-color: lightskyblue;
+    padding: 1rem;
+    text-align: center;
 }
-    .destacado {
-        border: 3px solid black;
-        background-color: aqua;
-    }
 
-    #parrafo-grande {
-        font-size: 2 rem;
-        background-color:green;
+main {
+    background-color: lightgreen;
+    height: 100vh;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
 
+section {
+    background-color:beige;
+    padding: 1rem;
+    text-align: center;
+    height: fit-content;    
+}
+
+@media (min-width:768px){
+    main {
+        flex-direction:row;
     }
+}
+
+
